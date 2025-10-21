@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     host: true,
     port: 5173,
-    allowedHosts: ["https://portfolio-main-1-p99u.onrender.com/"],
+    allowedHosts: ["https://portfolio-main-6.onrender.com"],
     proxy: {
       "/api": {
         target: " https://portfolio-main-3-gi34.onrender.com",
