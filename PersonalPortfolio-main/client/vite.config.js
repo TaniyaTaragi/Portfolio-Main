@@ -9,7 +9,7 @@ export default defineConfig({
     allowedHosts: [https://portfolio-main-1-p99u.onrender.com/"],
     proxy: {
       "/api": {
-        target: "https://portfolio-backend-0rld.onrender.com",
+        target: " https://portfolio-main-3-gi34.onrender.com",
         changeOrigin: true,
         secure: true,
       },
